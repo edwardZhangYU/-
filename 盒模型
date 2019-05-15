@@ -1,0 +1,10 @@
+1.标准盒模型。IE盒模型
+2.设置 boxsizing
+3.js 获取盒子宽高
+    dom.style.width  只能获取内联样式
+    dom.currentStyle.width      样式内    IE
+    window.getComputedStyle(dom).width     样式内都可
+    dom.getBoundingClientRect().width
+    dom.offsetWidth
+4.边距重叠
+    
